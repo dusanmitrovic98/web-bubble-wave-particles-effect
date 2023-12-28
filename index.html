@@ -47,3 +47,4 @@
 
       update() {
         this.x += this.speedX;
+        this.y = canvas.height / 2 + Math.sin(this.x * this.frequency) * this.amplitude;
